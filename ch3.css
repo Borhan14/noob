@@ -8,6 +8,9 @@ body{
     border-radius: 20px;
     margin: 0 auto;
    margin-top: 80px;
+   display: block;
+   margin-inline: auto;
+   width: min(100%,70.5re);
 }
 .head{
     color: rgb(114, 35, 204);
