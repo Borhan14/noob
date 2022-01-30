@@ -33,15 +33,15 @@ body{
     position: relative;
     clip-path: polygon(0 0, 100% 0, 100% 75%,0 100%);
 }
-.logo-box{
+.header__logo-box{
     position: absolute;
     top: 4rem;
     left: 4rem;
 }
-.logo{
+.header__logo{
     height: 35px;
 }
-.text-box{
+.header__text-box{
     position: absolute;
     top: 40%;
     left: 50%;
@@ -54,7 +54,7 @@ body{
     backface-visibility: hidden;
     margin-bottom: 6rem;
 }
-.heading-primary-main{
+.heading-primary--main{
     display: block;
     font-size: 6rem;
     font-weight: 400;
@@ -64,7 +64,7 @@ body{
     animation-timing-function: ease-out;
 
 }
-.heading-primary-sub{
+.heading-primary--sub{
     display: block;
     font-size: 2rem;
     font-weight: 40rem;
@@ -115,25 +115,25 @@ body{
 .btn:visited{
     text-transform: uppercase;
     text-decoration: none;
-    padding: 1.8rem 2.5rem;
+    padding: 2.5rem 4.8rem;
     display: inline-block;
-    border-radius: 15rem;
+    border-radius: 25rem;
     transition: all .3s;
     position: relative;
 }
 
 .btn:hover{
-    transform: translateY(-0.2rem);
-    box-shadow: 0 1.2rem 2rem rgb(0,0,0,.2);
+    transform: translateY(-0.5rem);
+    box-shadow: 0 1.5rem 2.5rem rgb(0,0,0,.2);
 }
 .btn:active{
     transform: translateY(-0.1rem);
-    box-shadow: 0 1.5rem 1.5rem rgb(0,0,0,.2);
+    box-shadow: 0 2.5rem 2.5rem rgb(0,0,0,.2);
 }
-.btn-white{
+.btn--white{
     background-color: white;
     color: #777;
-    
+    font-size: 1.5rem;
 }
 .btn::after{
     content: "";
@@ -147,14 +147,14 @@ body{
     z-index: -1;
     transition: all .5s;
 }
-.btn-white::after{
+.btn--white::after{
     background-color: white;
 }
 .btn:hover::after{
     transform: scaleX(1.4) scaleY(1.6);
     opacity: 0;
 }
-.btn-animated{
+.btn--animated{
     animation: moveInButtom .5s ease-out .75s;
     animation-fill-mode: backwards;
 }
