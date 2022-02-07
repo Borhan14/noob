@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(238, 198, 211);
+}
+.main{
+    margin-top: 15%;
+    margin-left: 20%;
+    margin-right: 25%;
+    background:whitesmoke;
+    padding: 10px;
+    border: 10px;
+    border-style: outset;
+    border-color: thistle;
+    border-radius: 15px;
+    display: flex;
+}
+.info{
+    background-color: whitesmoke;
+   /* margin-bottom: 15px;
+    margin-left: 15px;
+    margin-top: 10px;*/
+    margin: 25px;
+}
+.head{
+    color: rgb(8, 8, 83);
+    font-size: 25px;
+    font-weight: bolder;
+}
+.cur{
+    color: rgb(8, 8, 83);
+    font-size: 30px;
+    font-weight: bolder;
+}
+.text{
+    color: rgb(8, 8, 83);
+    font-size: 12px;
+}
+.ab{
+    color: rgb(8, 8, 83);
+    font-size: 15px;
+}
+.btn1{
+    padding: 5px 10px;
+    border-radius: 10px;
+    border-color: burlywood;
+    background-color: burlywood;
+}
+.btn2{
+    padding: 5px 10px;
+    border-radius: 10px;
+    border-color: palevioletred;
+    background-color: palevioletred;
+}
+.btn3{
+    padding: 5px 10px;
+    border-radius: 10px;
+    border-color: red;
+    background-color:red;
+}

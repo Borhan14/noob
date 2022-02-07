@@ -1,0 +1,62 @@
+body{
+    background-color: rgb(105, 198, 221);
+}
+.main{
+    margin-top: 8%;
+    margin-left: 25%;
+    width: 650px;
+    height: 500px;
+    background-color: white;
+    display: flex;
+    gap: 50px;
+}
+.head{
+    font-size: 18px;
+    font:bolder;
+    font-weight: bolder;
+    color: rgb(8, 8, 51);
+}
+.pay{
+    display: grid;
+    margin-left: 10px;
+    margin-bottom: 50px;
+    gap: 5px;
+}
+.btn{
+    font-size: 25px;
+    padding: 5px 6px;
+    background-color: white;
+    color: rgb(10, 10, 71);
+    border-color: brown;
+}
+.btn:hover{
+    border-color: cyan;
+}
+form{
+    margin-top: 25%;
+    margin-bottom: auto;
+    background-color: rgb(233, 229, 229);
+}
+.c{
+    margin-left: 5px;
+    font: bolder;
+    color: rgb(52, 52, 136);
+}
+.cinfo{
+    margin-left: 5px;
+    padding: 5px 8px;
+}
+.confirm{
+    margin-left: 25%;
+    margin-bottom: 5px;
+    padding: 15px 50px;
+    background-color: rgb(52, 52, 136);
+    color: white;
+    font-size: 15px;
+    border-width: 2px;
+}
+.confirm:hover{
+    background-color:red;
+    border-color: rgb(175, 101, 101);
+    color: rgb(105, 198, 221);
+}

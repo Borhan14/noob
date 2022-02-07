@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(216, 204, 204);
+}
+.main{
+    height: 250px;
+    margin-top: 18%;
+    margin-left: 35%;
+    margin-right: 35%;
+    background:whitesmoke;
+    padding: 10px;
+    border-radius: 15px;
+}
+.head{
+    margin-left: 10%;
+    font-size: 20px;
+    font:bold;
+    color:rgb(82, 82, 224);   
+}
+.body{
+    margin-left: 10%;
+    color: rgb(13, 13, 61);
+}
+.ch{
+    margin-left: 10%;
+}
+.cs{
+    margin-left: 15%;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+.cs:hover{
+    background-color: blue;
+}
